@@ -16,3 +16,4 @@ st.table(df)
 st.dataframe(df)
 
 st.checkbox( )
+
