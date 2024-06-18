@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import re
 from datetime import datetime
-import io
+#import io
 
 
 st.title("SAP SAM Log Parser")
