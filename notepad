@@ -1,0 +1,42 @@
+st.header("Header")
+st.text("general text")
+st.markdown("**bold text** *italic text*")
+st.markdown("---")
+st.title("SAP SAM Log Parser")
+
+'''
+st.metric(label="speed", value=100, delta=10)
+
+d = {'col1': [1, 2], 'col2': [3, 4]}
+df = pd.DataFrame(data=d)
+st.table(df)
+st.dataframe(df)
+
+state=st.checkbox("Checkbox1",value=True,key="check1" )
+if state:
+    st.write("Checkbox1 is checked")
+else:
+    st.write("Checkbox1 is not checked")
+
+def change():
+    if 'check2' not in st.session_state:
+        st.session_state['check2'] = True
+    print(st.session_state.check2)
+state2=st.checkbox("Checkbox2",value=True, on_change=change(),key="check2" )
+
+radio_btn=st.radio("Russian Radio",options={"US","UK","Russia"})
+print(radio_btn)
+
+def btnClick():
+    print("Button Clicked")
+
+btn=st.button("Submit",on_click=btnClick)
+
+def selectChange():
+    print("Select Changed")
+
+select=st.selectbox("Select",options=["US","UK","Russia"], on_change=selectChange())
+multi_select=st.multiselect("Favorite food",options=["Apple","Banana","Orange"])
+print(multi_select) 
+
+'''
